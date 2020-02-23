@@ -10,7 +10,7 @@
 
 ## Pages 
  * Index.html
- * Aboutme.html
- * Portfolio.html
- * Contact.html
+    * Aboutme.html
+    * Portfolio.html
+    * Contact.html
 
