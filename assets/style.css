@@ -1,4 +1,9 @@
-
+body{
+  background-image: url("../assets/images/background.jpg");
+  height: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
 
   .navbar {
     -webkit-box-shadow: 1px 1px 4px #5f6464;
@@ -11,6 +16,7 @@
  
    margin-left: 20px;
    color: white;
+   
 }
   .navbar .nav-item {
     font-size: 1.1rem;
