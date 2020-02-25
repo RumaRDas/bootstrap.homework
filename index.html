@@ -14,41 +14,36 @@
     <!-- Link to our internal css Stylesheet-->
     <link rel="stylesheet" href="assets/style.css">
 
-    <title>About Me</title>
+    <title>About</title>
 </head>
-
 <body>
-    <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top">
+   
+      <header class="navbar navbar-expand-lg  fixed-topnavbar-light flex-column flex-md-row bd-navbar bg-light">
         <div class="container">
-            <!-- Our brand / logo -->
-            <a class="navbar-brand" href="index.html"><img src="./assets/images/original.png" class="img-fluid" width="55"
-                    height="55" alt="logo" alt="Red circle with white arrow"> Boot Camp</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+          <div  id="header" class="col col-md-3 col-sm-5 col-xs-12 bg-dark " >
+            <a class="navbar-brand bg-dark" href="index.html"><img src="./assets/images/original.png" class="img-fluid" width="55"
+                height="55" alt="logo" alt="Red circle with white arrow"><h4 class="d-inline align-right">     Boot Camp</h4></a>
+          </div>
 
-            <!-- Collapsible button -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
+          <div class="navbar-nav-scroll ml-md-auto" >
+            <ul class="navbar-nav bd-navbar-nav flex-row ">
+                <li class="nav-item">
+                    <a class="nav-link active " href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+      </header>
 
-                    <!-- The links of our navbar -->
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="index.html">About Me </a>
-                    </li>
+    
+    <!-- Section 1: Navbar-->
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-
-                    <li class="nav-item ">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div><!-- Nav container div-->
-    </nav>
 
 
       <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
