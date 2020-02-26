@@ -13,13 +13,14 @@ body{
 
   }
 .navbar-brand{
- 
-   margin-left: 20px;
    color: white;
-   
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-family: 'Bangers';
 }
   .navbar .nav-item {
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding-right: 20px;
   }
   
@@ -35,13 +36,14 @@ body{
   }
 
   @media (max-width: 579px) {
-    .navbar .nav-item {
- align-items: center;
+   .navbar-text {
+    text-align: center !important;
+    margin-right: 10px;
     }
 
   }
   @media (max-width: 579px) {
-    .header {
-      display: block;
+    .navbar-brand{
+      margin-right: 0px;
     }
   }
