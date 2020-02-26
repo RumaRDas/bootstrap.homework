@@ -18,6 +18,7 @@ body{
    margin-top: 0px;
    margin-bottom: 0px;
    font-family: 'Bangers';
+   text-shadow: 2px 2px #558ABB;;
 }
   .navbar .nav-item {
     font-size: 1rem;
@@ -38,6 +39,25 @@ body{
   position: fixed;
   bottom: 0;
   width: 100%;
+  box-shadow: 1px 1px 4px #5f6464;
+}
+.bottom{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px #558ABB;;
+  
+}
+.img-back{
+  position: relative;
+  background-color:#5bc0de ;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  height: 30px;
 }
   @media (max-width: 579px) {
    .navbar-text {
