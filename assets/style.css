@@ -25,16 +25,20 @@ body{
   }
   
   .navbar .nav-item .nav-link {
-    color: black;
+    color: #5bc0de;
   }
-  .navbar .nav-item .nav:active {
-    color: #a3271e;
+  .navbar .nav-item .nav-link.active {
+    color: #080808;
   }
   
   .navbar .nav-item .nav-link:hover {
-    color: #a3271e;
+    color: #080808;
   }
-
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
   @media (max-width: 579px) {
    .navbar-text {
     text-align: center !important;
