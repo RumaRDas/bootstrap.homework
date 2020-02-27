@@ -1,10 +1,13 @@
 body{
-  background-image: url("../assets/images/background.jpg");
-  height: 100%;
- background-size: cover;
- background-repeat: no-repeat;
+  min-height: 100vh;
 }
+.bg{
+  background-image: url("../assets/images/background.jpg");
 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
   .navbar {
     -webkit-box-shadow: 1px 1px 4px #5f6464;
             box-shadow: 1px 1px 4px #4c4f50;
@@ -43,12 +46,13 @@ body{
   box-shadow: 1px 1px 4px #5f6464;
 }
 .bottom{
-  position: absolute;
+  position: relative;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  text-shadow: 2px 2px #558ABB;;
+  text-shadow: 2px 2px #558ABB;
+  text-align: center;
   
 }
 .img-back{
@@ -59,6 +63,7 @@ body{
   margin-bottom: 15px;
   padding-bottom: 5px;
   height: 30px;
+
 }
   @media (max-width: 579px) {
    .navbar-text {
