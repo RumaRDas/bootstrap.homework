@@ -17,9 +17,9 @@ body{
   }
   .divider{ margin-top:5px;
     margin-bottom:5px;
-    height:2px;
+    height:1px;
     width:100%;
-    border-top:1px solid gray
+    border-top:2px solid rgb(209, 204, 204);
 
   }
 .navbar-brand{
