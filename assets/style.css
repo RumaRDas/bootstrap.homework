@@ -16,7 +16,7 @@ body{
 
   }
   .divider{ margin-top:5px;
-    margin-bottom:5px;
+    margin-bottom:15px;
     height:1px;
     width:100%;
     border-top:2px solid rgb(209, 204, 204);
