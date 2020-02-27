@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <!-- We link our html to the Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,12 +19,11 @@
 <body class="bg">
   <!-- Section 1: Navbar-->
   <header class="navbar navbar-expand-lg  fixed-topnavbar-light flex-column flex-md-row bd-navbar bg-light">
-    <div class="container">
+    <div id="header_container" class="container">
       <div id="header" class="col col-md-3 col-sm-5 col-xs-12 navbar-brand bg-info py-3">
         <h2 class="d-inline align-right">Boot Camp</h2>
       </div>
-
-      <div class="navbar-nav-scroll ml-md-auto">
+      <div id="navbar_item" class="navbar-nav-scroll ml-md-auto">
         <ul class="navbar-nav bd-navbar-nav flex-row ">
           <li class="nav-item">
             <a class="nav-link active " href="index.html">About</a>
@@ -41,14 +38,17 @@
       </div>
     </div>
   </header>
+
   <!-- Section 2: about me-->
   <section id="aboutme" class="py-3  text-dark ">
-    <div class="container bg-light py-3">
-      <div class="row">
+    <div id="container_aboutme" class="container bg-light py-3">
+      <div id="aboutme" class="row">
+       
         <div class="col-md-2 "></div>
-        <div class="col-md-8 align-self-center py-3">
-          <h3 class="text-info pt-3 pl-3">What We Do</h3>
 
+        <div class="col-md-8  col col-xs-12 py-3">
+          <h3 class="text-info pt-3 pl-3">What We Do</h3>
+          <div class="divider"></div>
           <div class="row text-dark ">
             <div class="col-md-5">
               <img style="float:left " src="assets/images/pic-4.jpg" class="img-fluid py-4 mr-30 "
@@ -69,8 +69,6 @@
                 recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a
                 quaerat vel, obcaecati!</p>
             </div>
-
-
           </div>
         </div>
       </div>

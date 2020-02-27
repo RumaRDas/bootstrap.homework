@@ -6,11 +6,31 @@
 ## Application Uses in this Projects
 * Bootstrap
 * Html
-* css
+* CSS
 
 ## Pages 
  * Index.html
     * Aboutme.html
     * Portfolio.html
     * Contact.html
+
+## Font Decoration 
+
+For font decoration uses I used google font 
+link for that [https://fonts.googleapis.com/css?family=Bangers]
+
+## Responsive layout
+For having the responsive layout I use bootstrap  grid system
+* Containers
+* Rows
+* Columns
+      * Exam: For Medium devices col-md-8
+      * For small devices col-xs-12
+## Responsive Images
+* For responsive image i used img fluied.
+
+## Attribution
+*[https://stackoverflow.com]
+*[https://getbootstrap.com/docs/]
+*[https://www.w3schools.com/bootstrap4/default.asp]
 
