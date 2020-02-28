@@ -11,7 +11,7 @@ body{
   .navbar {
     -webkit-box-shadow: 1px 1px 4px #5f6464;
             box-shadow: 1px 1px 4px #4c4f50;
-    background: #fff;
+    background : rgb(198, 198, 199);
    padding: 0px;
 
   }
@@ -32,7 +32,7 @@ body{
    margin-bottom: 0px;
    font-family: 'Bangers';
    text-shadow: 2px 1px 5px gray;
-   background-color: #575b5e;
+   background-color:rgb(19, 15, 15);
 }
   .navbar .nav-item {
     font-size: 1rem;
@@ -45,7 +45,7 @@ color: white;
   }
   
   .navbar .nav-item .nav-link {
-    color: #9c9595;
+    color: white;
   }
   .navbar .nav-item .nav-link.active {
    color: #080808;
