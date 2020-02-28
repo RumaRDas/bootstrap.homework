@@ -23,7 +23,7 @@ body{
 
   }
   .blue{
-    color: #5a8096;
+    color: #575b5e;
   }
 .navbar-brand{
    color: white;
@@ -32,7 +32,7 @@ body{
    margin-bottom: 0px;
    font-family: 'Bangers';
    text-shadow: 2px 1px 5px gray;
-   background-color: #5a8096;
+   background-color: #575b5e;
 }
   .navbar .nav-item {
     font-size: 1rem;
@@ -40,12 +40,12 @@ body{
     padding-left: 20px;
   }
   .btn{
-background-color: #5a8096;
+background-color: #575b5e;
 color: white;
   }
   
   .navbar .nav-item .nav-link {
-    color: #5a8096;
+    color: #575b5e;
   }
   .navbar .nav-item .nav-link.active {
     color: #080808;
@@ -67,7 +67,7 @@ color: white;
 
 .img-text{
   position: absolute;
-  background-color: #5a8096;
+  background-color:#575b5e;
   text-align: center;
   justify-content: center;
   color: white;
@@ -91,7 +91,7 @@ a:hover, a:focus
 { text-decoration: none;}
 
 .footer{
-  background-color: #5a8096;
+  background-color: #575b5e;
 }
   @media (max-width: 579px) {
    .navbar-text {
