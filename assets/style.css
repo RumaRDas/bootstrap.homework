@@ -2,7 +2,7 @@ body{
   min-height: 100vh;
 }
 .bg{
-  background-image: url("../assets/images/background.jpg");
+  background-image: url("../assets/images/background_1.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,28 +50,34 @@ body{
   position: fixed;
   bottom: 0;
   width: 100%;
-  box-shadow: 1px 1px 4px #5f6464;
 }
-.bottom{
+.img-back-color {
   position: relative;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: 2px 2px #558ABB;
-  text-align: center;
-  
-}
-.img-back{
-  position: relative;
-  background-color:#5bc0de ;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-bottom: 15px;
-  padding-bottom: 5px;
-  height: 30px;
 
 }
+
+
+.img-text{
+  position: absolute;
+  background-color:#5bc0de ;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px #558ABB;
+  bottom: 7%;
+  width: 100%;
+  padding-bottom: 5px;
+
+}
+
+.text_back{
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+
+}
+a:hover, a:focus 
+{ text-decoration: none;}
   @media (max-width: 579px) {
    .navbar-text {
     text-align: center !important;
