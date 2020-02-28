@@ -3,7 +3,7 @@
 * Portfolio  website is a multiple pages HTML website
 * Using semantic tags and CSS.
 
-## View THis Page [https://rumardas.github.io/bootstrap_homework/.]
+## View THis Page [https://rumardas.github.io/portfolio/]
 
 ## Application Uses in this Projects
 * Bootstrap
